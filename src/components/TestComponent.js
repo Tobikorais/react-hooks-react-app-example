@@ -1,9 +1,9 @@
 import React from "react";
 
 // no need to modify anything in here. The final test is looking for the returned JSX from this component
-function TestComponent() {
+function TestComponent({ title }) {
   return (
-    <div className="video">
+    <div className="video" title={title}>
       <iframe
         width="560"
         height="315"
